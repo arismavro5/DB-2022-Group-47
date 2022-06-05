@@ -1,0 +1,21 @@
+insert into company 
+values
+	('Altenwerth-Gibson',10000),
+    ('Becker LLC',100000),
+    ('Bergstrom-Brown',100000),
+    ('Boehm-Morar',10000),
+    ('Boyle, Welch and Block',5000),
+    ('Carroll Group',100000),
+    ('Conn, Corwin and Erdman',1000000),
+    ('Daniel-Flatley',100000),
+    ('Fahey, Gaylord and Mills',50000),
+    ('Farrell LLC',40000),
+    ('Frami, Lynch and Botsford',30000),
+    ('Gerlach and Sons',120000),
+    ('Gottlieb, Williamson and Boyle',140000),
+    ('Grant-Boyer',120000),
+    ('Hammes-Hayes',60000),
+    ('Hane and Sons',70000),
+    ('Hegmann, Orn and Robel',80000),
+    ('Heller, Cole and Stoltenberg',20000),
+    ('Heller, Greenholt and Kertzmann',550000);

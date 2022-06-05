@@ -1,0 +1,22 @@
+insert into university 
+values
+	('Hyatt-Hyatt',10000),
+    ('Jaskolski, Jaskolski and Larson',20000),
+    ('Jerde Inc',5000000),
+    ('Kessler LLC',200000),
+    ('King, Gerlach and Rowe',70000),
+    ('Kirlin, Conroy and Sawayn',25000),
+    ('Klocko Group',420000),
+    ('Koss, Bartell and Kunze',40000),
+	('Kunze LLC',40000),
+	('Lakin-Wintheiser',40000),
+	('Langosh, Oberbrunner and Hamill',40000),
+    ('Lebsack Group',40000),
+    ('Kris Inc',20000),
+	('Lindgren-Kris',40000),
+	('MacGyver-Marks',40000),
+	('McClure, Runolfsdottir and Kunze',40000),
+	('McLaughlin-Ward',40000),
+	('Moen Group',40000),
+	('Muller and Sons',40000),
+	('Nikolaus, Blick and Grant',40000);

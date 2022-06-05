@@ -1,0 +1,23 @@
+insert into `research center` 
+values
+	('Nikolaus, Brakus and Will',10000,1000),
+    ('Osinski and Sons',20000,2000),
+    ('Pfeffer-Langworth',5000000,5000),
+    ('Quigley-Huel',200000,2000),
+    ('Quigley-Kuvalis',70000,60000),
+    ('Quitzon Group',25000,4000),
+    ('Raynor and Sons',420000,10000),
+    ('Rippin-Stokes',40000,10000),
+	('Rohan LLC',40000,10000),
+	('Runolfsdottir-Cummings',40000,10000),
+	('Sporer, Dooley and Braun',40000,10000),
+    ('Stanton, Mills and Wehner',40000,10000),
+    ('Stark LLC',20000,10000),
+	('Towne Inc',40000,10000),
+	('Tromp, Hackett and Shields',40000,160000),
+	('Tromp, Orn and Wintheiser',40000,50000),
+	('Upton, Streich and Feeney',40000,40000),
+	('Vandervort and Sons',80000,10000),
+	('Weissnat-Blick',70000,10000),
+    ('Zulauf LLC',60000,20000),
+	('Wolff-Hahn',50000,10000);

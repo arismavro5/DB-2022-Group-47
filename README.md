@@ -29,4 +29,4 @@ In order to send queries to a database from a Python program, a connection betwe
 
 # Project Structure
 
-Generally, Flask allows some freedom of choice regarding the layout of the application's components. This demo follows the structure recommended by the official documentation, whereby a package, arbitrarily named "dbdemo", contains the application's code and files, separated into folders for each category (models, controllers, HTML templates - views, static files such as css or images).
+We have divided the project into seperate folders. The folder "sql-queries" contains the solutions to the problems 3.2-3.8, as well as two views of the relational model. "Insertions" contains all the dummy-data used and transfered in our database.

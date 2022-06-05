@@ -15,6 +15,8 @@ Members:
     - Flask-MySQLdb
     - faker (dummy data)
 
+The necessary packages for this app are listed in "requirements.txt".
+
 
 # What does Flask do
 

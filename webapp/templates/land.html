@@ -1,0 +1,131 @@
+{% extends "global_layout.html" %}
+{% block content %}
+<div class="container" id="row-container">
+    {% include "flash_messages.html" %}
+    
+    <div class="row" id="row"></div>
+    <div class="col-md-4">
+        <div class="card" id="card-container-layout">
+            <div class="card-body" id="card">
+                <h4 class="card-title">Create researcher</h4>
+                <p class="card-text" id="paragraph">Enter a new researcher into the database<br></p>
+                <a class="btn btn-primary" id="show-btn" href="/researcher">Create</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" id="card-container-layout">
+            <div class="card-body" id="card">
+                <h4 class="card-title">View of projects for each researcher</h4>
+                {% for v in view1 %}
+                <tr>
+    
+                    <td> {{ v }} </td>
+                    <br>
+    
+                    {% endfor %}
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" id="card-container-layout">
+            <div class="card-body" id="card">
+                <h4 class="card-title">Amount per scientific field</h4>
+                {% for v in view2 %}
+                <tr>
+    
+                    <td> {{ v }} </td>
+                    <br>
+    
+                    {% endfor %}
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" id="card-container-layout">
+            <div class="card-body" id="card">
+                <h4 class="card-title">Organisations with same number of projects last 2 years</h4>
+                {% for o in organisations %}
+                <tr>
+    
+                    <td> {{ o }} </td>
+                    <br>
+    
+                    {% endfor %}
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" id="card-container-layout">
+            <div class="card-body" id="card">
+                <h4 class="card-title">Top 3 project pairs</h4>
+                {% for p in pairs %}
+                <tr>
+    
+                    <td> {{ p }} </td>
+                    <br>
+    
+                    {% endfor %}
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" id="card-container-layout">
+            <div class="card-body" id="card">
+                <h4 class="card-title">Young researchers working in most projects</h4>
+                {% for r in researchers %}
+                <tr>
+                
+                <td> {{ r }} </td>
+                <br>
+                
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" id="card-container-layout">
+            <div class="card-body" id="card">
+                <h4 class="card-title">Top 5 stems with most funding</h4>
+               <!-- <p class="card-text" id="paragraph">The best Shooting grade is {{best_shooting_grade}} and belongs to {{best_shooter}}.
+                </p>--> 
+                {% for s in stems %}
+                <tr>
+                
+                    <td> {{ s }} </td>
+                    <br>
+                
+                    {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" id="card-container-layout">
+            <div class="card-body" id="card">
+                <h4 class="card-title">Researchers with five or more projects</h4>
+                {% for a in fivepro %}
+                <tr>
+                
+                    <td> {{ a }} </td>
+                    <br>
+                
+                    {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

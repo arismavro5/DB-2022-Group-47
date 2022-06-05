@@ -8,4 +8,4 @@ GROUP BY
   `Researcher_ID Researcher`
 ORDER BY 
   `value_occurrence` DESC
-LIMIT 5;
+LIMIT 3;

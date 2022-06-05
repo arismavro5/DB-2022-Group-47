@@ -13,5 +13,5 @@ FROM (
 	GROUP by 1,2
 ) sub , project
 WHERE `ID Project` = `Project_ID Project`
-LIMIT 5
+LIMIT 3
 ; 

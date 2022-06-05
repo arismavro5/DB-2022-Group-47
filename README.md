@@ -31,4 +31,7 @@ In order to send queries to a database from a Python program, a connection betwe
 
 # Project Structure
 
-We have divided the project into seperate folders. The folder "sql-queries" contains the solutions to the problems 3.2-3.8, as well as two views of the relational model. "Insertions" contains all the dummy-data used and transfered in our database.
+We have divided the project into seperate folders. 
+- "sql-queries" contains the solutions to the problems 3.2-3.8, as well as two views of the relational model. 
+- "Insertions" contains all the dummy-data used and transfered in our database.
+- "Triggers" contains three triggers created.
